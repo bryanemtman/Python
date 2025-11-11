@@ -175,10 +175,10 @@ def main():
     parser.add_argument("--min_delay", "-d", type=float, default=0.2, help="Minimum delay in seconds per worker between requests (default 0.2s)")
     parser.add_argument("--max_retries", "-r", type=int, default=4, help="Maximum retries Retry-After/backoff (default 4)")
     parser.add_argument("--output", "-o", default="results.csv", help="CSV output file (default results.csv)")
-    parser.add_argument("--http_fallback", action="store_true", help="If HTTP fails, try HTTP once")
-    parser.add_argument("--user_agent", default="SubdomainChecker/1.0 (+contact@example.com", help="User-Agent header (be polite!)")
+    parser.add_argument("--http_fallback", action="store_true", help="If HTTPS fails, try HTTP once")
+    parser.add_argument("--user_agent", default="SubdomainChecker/1.0 (+contact@example.com)", help="User-Agent header (be polite!)")
     parser.add_argument("--connect_timeout", type=float, default=5.0, help="Connect timeout in seconds (default 5s)")
-    parser.add_argument("--total_timeout", type=float, default=10.0, help="Total request timeout in seconds (default 10s")
+    parser.add_argument("--total_timeout", type=float, default=10.0, help="Total request timeout in seconds (default 10s)")
     args = parser.parse_args()
 
     # read domain files
@@ -199,3 +199,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+
