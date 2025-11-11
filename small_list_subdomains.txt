@@ -1,0 +1,17 @@
+www
+m
+mail
+support
+help
+login
+ftp
+admin
+lists
+mobile
+shop
+email
+api
+info
+store
+app
+live
