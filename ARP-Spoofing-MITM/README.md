@@ -1,4 +1,4 @@
-# 🔧 ARP Spoofing & MITM Network Utility Tool  
+# ARP Spoofing & MITM Network Utility Tool  
 *A Python-based educational tool for ARP spoofing, NAT handling, IP forwarding, and raw ARP frame crafting.*
 
 ---
