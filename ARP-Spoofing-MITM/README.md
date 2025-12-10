@@ -50,9 +50,13 @@ This script allows the user to:
 
 ## Usage
 1. Install dependencies
-```pip install netifaces```
-2. Run the script (Linux only)
-```sudo python3 mitm_lab_tool.py```
+```
+pip install netifaces
+```
+3. Run the script (Linux only)
+```
+sudo python3 arp_mitm.py
+```
 Raw packet transmission + iptables manipulation requires root privileges.
 
 ## Program Flow
